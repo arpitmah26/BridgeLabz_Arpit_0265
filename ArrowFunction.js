@@ -55,3 +55,32 @@ This makes them useful in callbacks where this needs to refer to the outer conte
 // }
 // const timer =new Timer();
 
+//3. cannot be used as constructor
+// const Person = (name) => {
+//     this.name = name;
+// };
+// const person = new Person("Arpit"); // will throw error : Person is not a constructor.
+
+
+//4. No arguements object
+
+// const showArgs= (...args) => agrs;
+// console.log(showArgs(1,2,3));
+
+
+// Examples 
+// !. arrow func as a callback
+
+// const numbers = [1,2,3,4];
+// const doubled  = numbers.map(num => num*2);
+// console.log(doubled);
+
+//2. default parameters
+
+// const greet = (name = "Arpit") =>  `Hello, ${name}!`;
+// console.log(greet());
+// console.log(greet("Arman"));
+
+
+
+
