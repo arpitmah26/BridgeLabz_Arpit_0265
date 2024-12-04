@@ -17,3 +17,7 @@ Arpit
 * Destructuring concept in JS.
 * Assignment task.
 
+4/12/34
+
+Uploaded Destructuring file on github.
+Uploaded Iterables file on github.
