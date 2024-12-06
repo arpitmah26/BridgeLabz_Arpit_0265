@@ -27,3 +27,14 @@ Arpit
 
 * What is Node.js, NPM
 * Type Conversion --- "use strict"
+
+
+6/12/24
+
+* Interaction techniques like alert, prompt, confirm
+* Concept of Polyfills and Transpilers in Javascript
+* Learnt Recursion in Javascript
+* Learnt Stack and Call stack method
+* Rest parameters and Spread operators
+* Variable scope in Javascript
+* Closures in Javascript
