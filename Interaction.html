@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interaction with Alerts, Prompts, and Confirm</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin: 10px 0;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>JavaScript Interaction Example</h1>
+  <button id="alertButton">Show Alert</button>
+ <button id="promptButton">Ask for Name</button>
+  <button id="confirmButton">Confirm Action</button>
+
+  <p id="output"></p> 
+
+  <script>
+    // Handle Alert Button Click
+    document.getElementById("alertButton").addEventListener("click", () => {
+      alert("This is an alert message!");
+    });
+
+    // Handle Prompt Button Click
+    document.getElementById("promptButton").addEventListener("click", () => {
+      const name = prompt("What is your name?");
+      if (name) {
+        document.getElementById("output").textContent = `Hello, ${name}! Welcome!`;
+      } else {
+        document.getElementById("output").textContent = "You didn't enter your name.";
+      }
+    });
+
+    // Handle Confirm Button Click
+    document.getElementById("confirmButton").addEventListener("click", () => {
+      const isConfirmed = confirm("Do you want to proceed?");
+      if (isConfirmed) {
+        document.getElementById("output").textContent = "You chose to proceed!";
+      } else {
+        document.getElementById("output").textContent = "You canceled the action.";
+      }
+    });
+  </script>
+</body>
+</html>
