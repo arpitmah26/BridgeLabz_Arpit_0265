@@ -38,3 +38,9 @@ Arpit
 * Rest parameters and Spread operators
 * Variable scope in Javascript
 * Closures in Javascript
+
+10/12/24
+* IIFE (Immediately Invoked Function Expression)
+* NFE (Named Function Expression)
+* The "new function" syntax
+* Scheduling
