@@ -78,7 +78,8 @@ Arpit
 29. Print the distance between the first 100 prime numbers
 30. Create a function that will add two positive numbers of indefinite size. The numbers are received as strings and the result should be also provided as string.
 
-12/12/24
+12/12/24 
+* 
 31. Create a function that will return the number of words in a text
 32. Create a function that will capitalize the first letter of each word in a text
 33. Calculate the sum of numbers received in a comma delimited string
