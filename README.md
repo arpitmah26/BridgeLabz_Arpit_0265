@@ -45,7 +45,7 @@ Arpit
 * The "new function" syntax
 * Scheduling
 
-11/12/24'
+11/12/24
 * Solved Javascript prpblems.
 1. Print numbers from 1 to 10
 2. Print the odd numbers less than 100
@@ -77,6 +77,8 @@ Arpit
 28. Calculate the sum of first 100 prime numbers and return them in an array
 29. Print the distance between the first 100 prime numbers
 30. Create a function that will add two positive numbers of indefinite size. The numbers are received as strings and the result should be also provided as string.
+
+12/12/24
 31. Create a function that will return the number of words in a text
 32. Create a function that will capitalize the first letter of each word in a text
 33. Calculate the sum of numbers received in a comma delimited string
