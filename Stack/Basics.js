@@ -1,10 +1,73 @@
 // Basics
 
-let arr = [1,2,3,4,5,6,7];
+// example of a stack class using an array in js.
 
-console.log(arr);
+// class Stack{
+//     constructor(){
 
-console.log(arr.push());
+//         this.items= [];
+//     }
+// }
+ 
 
-let fst = arr[0];
-console.log(fst);
+
+// methods in stack
+
+// push(element) 
+// {
+//     this.items.push(element);
+// }
+
+
+//pop()
+
+// pop()
+// {
+//     if(this.items.length == 0)
+//     return 'Underflow'
+//     return this.items.pop();
+// }
+
+
+
+//peek()
+
+// peek()
+// {
+//     return this.items[this.items.length -1];
+// }
+
+
+//helper methods
+
+//isEmpty():
+
+// isEmpty()
+// {
+//     return this.items.length == 0;
+// }
+
+
+//printStack()
+
+// printStack()
+// {
+//     let str = "";
+//     for(let i=0; i < this.items.length; i++){
+//         str += this.items[i] + " ";
+//         return str;
+//     }
+// }
+
+// creating object for stack class
+
+// let stack = new Staack();
+
+let stack = new Stack();
+console.log(stack.isEmpty()); // returns false
+console.log(stack.pop());   // returns underflow
+
+stack.push(10);
+stack.push(20);
+stack.push(30);
+
