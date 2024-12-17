@@ -103,3 +103,9 @@ Arpit
 
 * Data Structures and Algorithms
 * Arrays.
+
+17/12/24
+
+* call,apply, bind method
+* Stack data structure
+* Queue data structure
