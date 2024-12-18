@@ -109,3 +109,7 @@ Arpit
 * call,apply, bind method
 * Stack data structure
 * Queue data structure
+
+18/12/24
+
+* Linked List
