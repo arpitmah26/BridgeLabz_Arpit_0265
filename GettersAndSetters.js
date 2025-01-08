@@ -52,4 +52,38 @@ console.log(person1.lastName);
 // console.log(fullName);
 
 
+// Combine example of getters and setters
+
+// Rectangle Class
+
+class Rectangle{
+    constructor(width, height){
+        this.width =width;
+        this.height =height;
+    }
+
+    //getter for area
+    get area(){
+        return this.width * this.height;
+    }
+
+    //setter for area
+    set area(value){
+        this.width = Math.sqrt(value);
+        this.height = Math.sqrt(value);
+    }
+
+}
+
+let rectangle = new Rectangle(4,5);
+
+// using the getter 
+console.log(rectangle.area);
+
+// using setter
+rectangle.area = 36;
+console.log(rectangle.width);
+console.log(rectangle.height);
+
+
 
