@@ -56,5 +56,5 @@ Dog.prototype.speak = function() {
 };
 
 // Creating an instance of Dog
-let dog = new Dog('Rex');
-dog.speak(); // Output: Rex barks.
+let doggy = new Dog('Rex');
+doggy.speak(); // Output: Rex barks.
