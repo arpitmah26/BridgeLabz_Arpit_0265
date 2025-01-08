@@ -113,3 +113,39 @@ Arpit
 18/12/24
 
 * Linked List
+
+19/12/24
+
+* HashMap
+* Implementation Of HashMap
+
+26/12/24
+
+* Trees
+* Graphs
+
+1/1/25
+
+* DSA practice questions.
+
+
+7/12/25
+
+* Objects, Classes and Constructors
+* Object References and Copying
+* Concept of Garbage Collection
+* Object methods and properties
+* "this" keyword
+* "new" operator
+* Optional Chaining ('?.')
+* Objects to primitive conversion
+* Property Flags and descriptors
+* Concept of Hoisting
+* Callbacks
+
+/8/12/25
+
+* Property of getters and setters
+* Practise Questions on yesterday's topics
+* Prototypes
+* Inheritance 
