@@ -1,4 +1,6 @@
-// In JavaScript, a constructor is a special type of function used to create and initialize objects. It is commonly used in conjunction with the class keyword or with traditional function-based syntax
+// In JavaScript, a constructor is a special type of 
+// function used to create and initialize objects.
+// It is commonly used in conjunction with the class keyword or with traditional function-based syntax
 
 // 1. constructor in classes
 
