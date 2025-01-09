@@ -143,7 +143,7 @@ Arpit
 * Concept of Hoisting
 * Callbacks
 
-/8/1/25
+8/1/25
 
 * Property of getters and setters
 * Practise Questions on yesterday's topics
