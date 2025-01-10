@@ -156,3 +156,8 @@ Arpit
 * Promises Chaining
 * Promises API/Methods
 * Error handling with promises 
+
+10/1/25
+
+* Custom Error
+* Extend Error
