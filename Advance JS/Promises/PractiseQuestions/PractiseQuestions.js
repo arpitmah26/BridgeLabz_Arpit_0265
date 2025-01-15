@@ -96,10 +96,23 @@ combineMessages().then(console.log); // Logs: Hello, Async World!
 
 
 // example 2
-async function fetchData() {
-  let response = await fetch('https://jsonplaceholder.typicode.com/posts/1');
-  let data = await response.json();
-  console.log(data);
-}
+// async function fetchData() {
+//   let response = await fetch('https://jsonplaceholder.typicode.com/posts/1');
+//   let data = await response.json();
+//   console.log(data);
+// }
 
-fetchData();
+// fetchData();
+
+
+// Currying questions --> using currying and promises together
+
+const fetchData = url => options => 
+  fetch(url, options).then(response => response.json());
+
+
+const getUsers = fetchData('https://jsonplaceholder.typicode.com/users');
+const getPosts = fetchData('https://jsonplaceholder.typicode.com/posts');
+
+getUsers({}).then(data => console.log('Users:', data));
+getPosts({}).then(data => console.log('Posts:', data));
