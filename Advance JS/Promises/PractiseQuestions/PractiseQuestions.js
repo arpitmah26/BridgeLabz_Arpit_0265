@@ -57,25 +57,49 @@
 
 // Handling multiple custom errors using extend Error
 
-class NetworkError extends Error{
-  constructor(message){
-    super(message);
-    this.name = "NetworkError";
-  }
-}
+// class NetworkError extends Error{
+//   constructor(message){
+//     super(message);
+//     this.name = "NetworkError";
+//   }
+// }
 
-function fetchData(){
-  const success = false;
-  if(!success){
-    throw new NetworkError("failed to fetch data");
-  }
-}
+// function fetchData(){
+//   const success = false;
+//   if(!success){
+//     throw new NetworkError("failed to fetch data");
+//   }
+// }
 
-try{
-  fetchData();
+// try{
+//   fetchData();
 
-}catch(error){
-  console.log(error.name);
-  console.log(error.message);
+// }catch(error){
+//   console.log(error.name);
+//   console.log(error.message);
   
+// }
+
+
+// async/await 
+
+async function getMessage() {
+  return "Hello";
 }
+
+async function combineMessages() {
+  let message = await getMessage();
+  return `${message}, Async World!`;
+}
+
+combineMessages().then(console.log); // Logs: Hello, Async World!
+
+
+// example 2
+async function fetchData() {
+  let response = await fetch('https://jsonplaceholder.typicode.com/posts/1');
+  let data = await response.json();
+  console.log(data);
+}
+
+fetchData();
