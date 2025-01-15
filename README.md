@@ -156,3 +156,26 @@ Arpit
 * Promises Chaining
 * Promises API/Methods
 * Error handling with promises 
+
+10/1/25
+
+* Custom Error
+* Extend Error
+
+13/1/25
+
+* Review (Week-4)
+
+14/1/25
+
+* Practise questions on recent covered topics
+
+15/1/25
+
+* Async/await
+* Currying
+
+16/1/25
+
+* Native prototypes
+* Objects without proto
